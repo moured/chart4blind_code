@@ -1,0 +1,3610 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AI Feature Test renders correctly 1`] = `
+<div
+  className="flex h-full w-full items-center justify-center"
+  onMouseMove={[Function]}
+>
+  <div
+    style={
+      Object {
+        "height": 0,
+        "overflow": "visible",
+        "position": "relative",
+        "width": 0,
+      }
+    }
+  >
+    <div
+      className="absolute "
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 0,
+            "justifyContent": "center",
+            "overflow": "visible",
+            "position": "absolute",
+            "width": 0,
+          }
+        }
+      >
+        <div
+          aria-busy={true}
+          aria-label="tail-spin-loading"
+          className=""
+          data-testid="tail-spin-loading"
+          role="status"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <svg
+            data-testid="tail-spin-svg"
+            height="80"
+            viewBox="0 0 38 38"
+            width="80"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient
+                id="a"
+                x1="8.042%"
+                x2="65.682%"
+                y1="0%"
+                y2="23.865%"
+              >
+                <stop
+                  offset="0%"
+                  stopColor="#153243"
+                  stopOpacity="0"
+                />
+                <stop
+                  offset="63.146%"
+                  stopColor="#153243"
+                  stopOpacity=".631"
+                />
+                <stop
+                  offset="100%"
+                  stopColor="#153243"
+                />
+              </linearGradient>
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+            >
+              <g
+                transform="translate(1 1)"
+              >
+                <path
+                  d="M36 18c0-9.94-8.06-18-18-18"
+                  id="Oval-2"
+                  stroke="#153243"
+                  strokeWidth="2"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    dur="0.9s"
+                    from="0 18 18"
+                    repeatCount="indefinite"
+                    to="360 18 18"
+                    type="rotate"
+                  />
+                </path>
+                <circle
+                  cx="36"
+                  cy="18"
+                  fill="#fff"
+                  r="0.75"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    dur="0.9s"
+                    from="0 18 18"
+                    repeatCount="indefinite"
+                    to="360 18 18"
+                    type="rotate"
+                  />
+                </circle>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="hidden"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "height": 0,
+          "justifyContent": "center",
+          "overflow": "visible",
+          "position": "absolute",
+          "width": 0,
+        }
+      }
+    >
+      <svg
+        className="absolute w-full h-full cursor-crosshair"
+        onContextMenu={[Function]}
+        style={
+          Object {
+            "overflow": "visible",
+          }
+        }
+        viewBox="0 0 0 0"
+      >
+        <rect
+          fill="#000000"
+          fillOpacity={0.5}
+          height={0}
+          width={0}
+          x="0"
+          y="0"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Advanced Button Test renders correctly 1`] = `
+<button
+  className="w-full relative flex justify-center"
+  onClick={[Function]}
+>
+  <div
+    className="text-darkgrey text-xs flex items-center flex-col"
+  >
+    Advanced
+    <svg
+      className="mt-[-4px]"
+      fill="currentColor"
+      height={17}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 512 512"
+      width={17}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M112 328l144-144 144 144"
+        fill="none"
+        strokeLinecap="square"
+        strokeMiterlimit="10"
+        strokeWidth="48"
+      />
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`Circle placer Feature renders correctly 1`] = `
+<div
+  className="flex h-full w-full items-center justify-center cursor-crosshair"
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  onMouseMove={[Function]}
+  onMouseUp={[Function]}
+>
+  <div
+    style={
+      Object {
+        "height": 0,
+        "overflow": "visible",
+        "position": "relative",
+        "width": 0,
+      }
+    }
+  >
+    <svg
+      className="absolute w-full h-full"
+      id="step6"
+      onContextMenu={[Function]}
+      style={
+        Object {
+          "overflow": "visible",
+        }
+      }
+      viewBox="0 0 0 0"
+    >
+      <rect
+        fill="#ffffff"
+        fillOpacity={0.15}
+        height={0}
+        width={0}
+        x="0"
+        y="0"
+      />
+      <g>
+        <rect
+          height={0}
+          opacity={0}
+          width={0}
+          x="0"
+          y="0"
+        />
+        <g>
+          <g>
+            <circle
+              cx={0}
+              cy={0}
+              fill="#E0AFA0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              r={13}
+              stroke="#153243"
+              strokeWidth={5}
+            />
+            <text
+              fill="#153243"
+              fontSize={30}
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              textAnchor="middle"
+              x={0}
+              y={-20}
+            >
+              X1
+            </text>
+            )
+          </g>
+          <g>
+            <circle
+              cx={0}
+              cy={0}
+              fill="#E0AFA0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              r={13}
+              stroke="#153243"
+              strokeWidth={5}
+            />
+            <text
+              fill="#153243"
+              fontSize={30}
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              textAnchor="middle"
+              x={0}
+              y={-20}
+            >
+              X2
+            </text>
+            )
+          </g>
+          <g>
+            <circle
+              cx={0}
+              cy={0}
+              fill="#E0AFA0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              r={13}
+              stroke="#153243"
+              strokeWidth={5}
+            />
+            <text
+              fill="#153243"
+              fontSize={30}
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              textAnchor="middle"
+              x={0}
+              y={-20}
+            >
+              Y1
+            </text>
+            )
+          </g>
+          <g>
+            <circle
+              cx={0}
+              cy={0}
+              fill="#E0AFA0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              r={13}
+              stroke="#153243"
+              strokeWidth={5}
+            />
+            <text
+              fill="#153243"
+              fontSize={30}
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              textAnchor="middle"
+              x={0}
+              y={-20}
+            >
+              Y2
+            </text>
+            )
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Custom input field test renders correctly 1`] = `
+<div
+  className=" mx-5"
+>
+  <input
+    className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="test"
+    type="text"
+    value="text"
+  />
+</div>
+`;
+
+exports[`D3 test renders correctly 1`] = `
+<div
+  data-description="SVG D3 Made"
+  id="step25"
+>
+  <div
+    id="step9"
+  >
+    <div
+      className="flex w-full justify-center items-center text-charcoal"
+    >
+      Calibrate your axes by adding reference values in the properties tab first!
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Drop down menu test renders correctly 1`] = `
+<div
+  className="mx-4 mb-4 relative w-full"
+>
+  <div
+    className="flex items-center"
+  >
+    <button
+      className="border-[1.5px] py-2.5 pl-6 pr-14 flex items-start justify-between font-normal border-darkgrey bg-truegrey text-charcoal py-2 px-4 w-full rounded-md"
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="block truncate "
+      >
+        text
+      </div>
+      <svg
+        className="text-darkgrey text-xl"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M112 184l144 144 144-144"
+          fill="none"
+          strokeLinecap="square"
+          strokeMiterlimit="10"
+          strokeWidth="48"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Editor test renders correctly 1`] = `
+<main
+  className="flex flex-col items-start justify-start h-full w-full bg-neutral dot-background relative"
+>
+  <div
+    className="absolute flex h-full w-full left-10 items-center "
+  >
+    <div
+      className="z-20 w-16 flex flex-col bg-sidegrey rounded-[1.25rem] justify-center bg-opacity-50 shadow-lg items-center bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))] from-grey via-neutral to-darkgrey"
+    >
+      <div
+        className="h-4"
+      />
+      <div
+        data-description="Circle Tool"
+      >
+        <div
+          className="flex justify-center items-center m-1"
+        >
+          <button
+            className="border-4 border-darkCharcoal bg-transparent w-11 h-11 flex items-center justify-center rounded-md"
+            onClick={[Function]}
+          >
+            <div
+              className="text-darkCharcoal"
+            >
+              <svg
+                fill="none"
+                height={28}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width={28}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        data-description="OCR Tool"
+        id="step19"
+      >
+        <div
+          className="flex justify-center items-center m-1"
+        >
+          <button
+            className="border-4 border-darkCharcoal bg-transparent w-11 h-11 flex items-center justify-center rounded-md"
+            onClick={[Function]}
+          >
+            <div
+              className="text-darkCharcoal"
+            >
+              <svg
+                fill="currentColor"
+                height={28}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width={28}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M5 15v4h4v2H3v-6h2zm16 0v6h-6v-2h4v-4h2zm-8.001-9l4.4 11h-2.155l-1.201-3h-4.09l-1.199 3H6.6l4.399-11h2zm-1 2.885L10.752 12h2.492l-1.245-3.115zM9 3v2H5v4H3V3h6zm12 0v6h-2V5h-4V3h6z"
+                  />
+                </g>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        data-description="AI Tool"
+        id="step17"
+      >
+        <div
+          className="flex justify-center items-center m-1"
+        >
+          <button
+            className="border-4 border-darkCharcoal bg-transparent w-11 h-11 flex items-center justify-center rounded-md"
+            onClick={[Function]}
+          >
+            <div
+              className="text-darkCharcoal"
+            >
+              <svg
+                fill="currentColor"
+                height={24}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                version="1.1"
+                viewBox="0 0 16 16"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 3l-2-2h-1v1l2 2zM5 0h1v2h-1zM9 5h2v1h-2zM10 2v-1h-1l-2 2 1 1zM0 5h2v1h-2zM5 9h1v2h-1zM1 9v1h1l2-2-1-1zM15.781 13.781l-9.939-9.939c-0.292-0.292-0.769-0.292-1.061 0l-0.939 0.939c-0.292 0.292-0.292 0.769 0 1.061l9.939 9.939c0.292 0.292 0.769 0.292 1.061 0l0.939-0.939c0.292-0.292 0.292-0.769 0-1.061zM7.5 8.5l-3-3 1-1 3 3-1 1z"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="h-8"
+      />
+    </div>
+  </div>
+  <div
+    className="z-20 flex w-full justify-center"
+  >
+    <div
+      className="flex bg-lightgrey px-1 py-[0.2rem] rounded-md my-4 text-md font-normal"
+      data-description="Clicked away from Image mode"
+      style={
+        Object {
+          "width": 136,
+        }
+      }
+    >
+      <button
+        className="flex-grow mr-1 py-1 border-[1.5px]  border-charcoal text-charcoal  bg-dogwater rounded-md"
+        onClick={[Function]}
+      >
+        Image
+      </button>
+      <button
+        className="flex-grow mr-1 py-1 bg-lightgrey text-darkgrey rounded-md"
+        onClick={[Function]}
+      >
+        SVG
+      </button>
+    </div>
+    <div
+      className="m-4 absolute top-0 right-0 w-[11rem] h-[11rem] overflow-hidden border-2 border-charcoal rounded-lg"
+    >
+      <div
+        className="absolute inset-0 flex items-center justify-center z-10"
+      >
+        <div
+          className="absolute border-[1px] h-full bg-charcoal"
+        />
+        <div
+          className="absolute border-[1px] w-full bg-charcoal"
+        />
+      </div>
+      <div
+        className="absolute inset-0"
+        style={
+          Object {
+            "transform": "translate(NaN%, NaN%) scale(12)",
+          }
+        }
+      >
+        <svg
+          className="absolute inset-0 z-40"
+          viewBox="0 0 0 0"
+        />
+        <img
+          alt="Zoom"
+          className="absolute inset-0"
+          src=""
+        />
+      </div>
+      <p
+        className="z-10 absolute bottom-0 left-0 m-2 text-sm font-medium text-charcoal"
+      >
+        X: 
+        0.000
+         
+        
+
+        Y: 
+        0.000
+      </p>
+    </div>
+  </div>
+  <div
+    className="flex w-full justify-center items-center h-full"
+  >
+    <div
+      className=" h-full w-full"
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "height": 0,
+            "justifyContent": "center",
+            "overflow": "visible",
+            "position": "absolute",
+            "width": 0,
+          }
+        }
+      >
+        <div
+          aria-busy={true}
+          aria-label="tail-spin-loading"
+          className=""
+          data-testid="tail-spin-loading"
+          role="status"
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <svg
+            data-testid="tail-spin-svg"
+            height="80"
+            viewBox="0 0 38 38"
+            width="80"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient
+                id="a"
+                x1="8.042%"
+                x2="65.682%"
+                y1="0%"
+                y2="23.865%"
+              >
+                <stop
+                  offset="0%"
+                  stopColor="#153243"
+                  stopOpacity="0"
+                />
+                <stop
+                  offset="63.146%"
+                  stopColor="#153243"
+                  stopOpacity=".631"
+                />
+                <stop
+                  offset="100%"
+                  stopColor="#153243"
+                />
+              </linearGradient>
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+            >
+              <g
+                transform="translate(1 1)"
+              >
+                <path
+                  d="M36 18c0-9.94-8.06-18-18-18"
+                  id="Oval-2"
+                  stroke="#153243"
+                  strokeWidth="2"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    dur="0.9s"
+                    from="0 18 18"
+                    repeatCount="indefinite"
+                    to="360 18 18"
+                    type="rotate"
+                  />
+                </path>
+                <circle
+                  cx="36"
+                  cy="18"
+                  fill="#fff"
+                  r="0.75"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    dur="0.9s"
+                    from="0 18 18"
+                    repeatCount="indefinite"
+                    to="360 18 18"
+                    type="rotate"
+                  />
+                </circle>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      className="hidden"
+    >
+      <div
+        data-description="SVG D3 Made"
+        id="step25"
+      >
+        <div
+          id="step9"
+        >
+          <div
+            className="flex w-full justify-center items-center text-charcoal"
+          >
+            Calibrate your axes by adding reference values in the properties tab first!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Export Modal test renders correctly 1`] = `
+<div
+  className="fixed inset-0 inline-flex items-center justify-center z-100"
+>
+  <div
+    className="fixed inset-0 bg-charcoal opacity-[0.675] z-100"
+  />
+  <div
+    className="bg-neutral relative w-1/3 flex flex-col items-center justify-between rounded-md z-100 shadow-xl"
+  >
+    <button
+      className="absolute right-3 top-3 text-right text-charcoal"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height={26}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 15 15"
+        width={26}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+    <div
+      className="mt-8"
+    >
+      <label
+        className="text-sm font-normal text-charcoal"
+      >
+        Output Format
+      </label>
+      <div
+        className="mt-[-1rem]"
+      >
+        <div
+          className="flex bg-lightgrey px-1 py-[0.2rem] rounded-md my-4 text-md font-normal"
+          data-description="Clicked away from SVG mode"
+          style={
+            Object {
+              "width": 136,
+            }
+          }
+        >
+          <button
+            className="flex-grow mr-1 py-1 border-[1.5px]  border-charcoal text-charcoal  bg-green rounded-md"
+            onClick={[Function]}
+          >
+            SVG
+          </button>
+          <button
+            className="flex-grow mr-1 py-1 bg-lightgrey text-darkgrey rounded-md"
+            onClick={[Function]}
+          >
+            CSV
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-[80%]"
+    >
+      <div
+        className="mb-4 justify-start w-full"
+      >
+        <button
+          className="flex flex-row justify-center items-center "
+          onClick={[Function]}
+        >
+          <div
+            className="bg-lightgrey border-2 border-charcoal border-solid ml-2 p-3 rounded-md"
+          />
+          <span
+            className="text-sm font-normal text-charcoal pl-2"
+          >
+            Adjust SVG for printing
+          </span>
+        </button>
+      </div>
+      <div
+        className="mb-4 justify-start w-full"
+      >
+        <button
+          className="flex flex-row justify-center items-center "
+          onClick={[Function]}
+        >
+          <div
+            className="bg-lightgrey border-2 border-charcoal border-solid ml-2 p-3 rounded-md"
+          />
+          <span
+            className="text-sm font-normal text-charcoal pl-2"
+          >
+            Allow data-collection for future model training
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      className="mb-4 bg-blue font-medium border-[1.5px] border-charcoal border-solid py-1 px-6 rounded text-charcoal text-base"
+      onClick={[Function]}
+    >
+      Download
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Header test renders correctly 1`] = `
+<header
+  className="flex items-center justify-between border-b border-darkgrey p-2 text-center font-normal text-sm lg:text-base"
+>
+  <div
+    className="flex items-center justify-start min-w-[30%] z-30"
+  >
+    <label
+      className="cursor-pointer ml-5"
+      id="step2"
+    >
+      <svg
+        fill="currentColor"
+        height={32}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width={32}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M64 192v-72a40 40 0 0140-40h75.89a40 40 0 0122.19 6.72l27.84 18.56a40 40 0 0022.19 6.72H408a40 40 0 0140 40v40"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="32"
+        />
+        <path
+          d="M479.9 226.55L463.68 392a40 40 0 01-39.93 40H88.25a40 40 0 01-39.93-40L32.1 226.55A32 32 0 0164 192h384.1a32 32 0 0131.8 34.55z"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="32"
+        />
+      </svg>
+      <input
+        accept="image/jpeg, image/png"
+        aria-label="folder import"
+        onChange={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="file"
+      />
+    </label>
+    <button
+      aria-label="about button"
+      className="ml-5"
+      id="step1"
+      onClick={[Function]}
+    >
+      <div
+        className="fixed inset-0 flex items-center justify-center z-50"
+      >
+        <div
+          className="fixed inset-0 bg-charcoal opacity-[0.675]"
+        />
+        <div
+          className="bg-neutral relative w-1/3 flex flex-col items-center justify-between rounded-md z-50 shadow-xl"
+        >
+          <div
+            className="p-12"
+          >
+            <p>
+              Given an image of a line chart, someone with visual impairment is not able to interact with the content. The image is flat. Using this tool, we can extract the data from the image by manually (or automatically) copying its content and exporting it in formats useful for someone with visual impairment. As you work, the SVG you produce can be viewed from within the tool. This entire process is guided through an interactive tutorial.
+              <br />
+               Made by Omar Moured and Morris Baumgarten-Egemole
+              <br />
+            </p>
+          </div>
+          <button
+            className="absolute right-3 top-3 text-right text-charcoal"
+            onClick={[Function]}
+          >
+            <svg
+              fill="none"
+              height={26}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 15 15"
+              width={26}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+          <button
+            className="mb-4 bg-dogwater font-medium border-[1.5px] border-charcoal border-solid py-1 px-6 rounded text-charcoal text-base"
+            onClick={[Function]}
+          >
+            Start Tutorial
+          </button>
+        </div>
+      </div>
+      <svg
+        fill="currentColor"
+        height={32}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width={32}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 76c48.1 0 93.3 18.7 127.3 52.7S436 207.9 436 256s-18.7 93.3-52.7 127.3S304.1 436 256 436c-48.1 0-93.3-18.7-127.3-52.7S76 304.1 76 256s18.7-93.3 52.7-127.3S207.9 76 256 76m0-28C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"
+        />
+        <path
+          d="M256.7 160c37.5 0 63.3 20.8 63.3 50.7 0 19.8-9.6 33.5-28.1 44.4-17.4 10.1-23.3 17.5-23.3 30.3v7.9h-34.7l-.3-8.6c-1.7-20.6 5.5-33.4 23.6-44 16.9-10.1 24-16.5 24-28.9s-12-21.5-26.9-21.5c-15.1 0-26 9.8-26.8 24.6H192c.7-32.2 24.5-54.9 64.7-54.9zm-26.3 171.4c0-11.5 9.6-20.6 21.4-20.6 11.9 0 21.5 9 21.5 20.6s-9.6 20.6-21.5 20.6-21.4-9-21.4-20.6z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="accessibility button"
+      className="ml-5"
+      id="step27"
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height={25}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width={25}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="256"
+          cy="56"
+          fill="none"
+          r="40"
+          strokeLinejoin="round"
+          strokeWidth="32"
+        />
+        <path
+          d="M204.23 274.44c2.9-18.06 4.2-35.52-.5-47.59-4-10.38-12.7-16.19-23.2-20.15L88 176.76c-12-4-23.21-10.7-24-23.94-1-17 14-28 29-24 0 0 88 31.14 163 31.14s162-31 162-31c18-5 30 9 30 23.79 0 14.21-11 19.21-24 23.94l-88 31.91c-8 3-21 9-26 18.18-6 10.75-5 29.53-2.1 47.59l5.9 29.63 37.41 163.9c2.8 13.15-6.3 25.44-19.4 27.74S308 489 304.12 476.28l-37.56-115.93q-2.71-8.34-4.8-16.87L256 320l-5.3 21.65q-2.52 10.35-5.8 20.48L208 476.18c-4 12.85-14.5 21.75-27.6 19.46s-22.4-15.59-19.46-27.74l37.39-163.83z"
+          fill="none"
+          strokeLinejoin="round"
+          strokeWidth="32"
+        />
+      </svg>
+    </button>
+    <div
+      className="flex justify-center"
+    >
+      <button
+        className="cursor-pointer ml-5"
+        data-description="undo"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height={32}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width={32}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Undo"
+          >
+            <path
+              d="M19.939,13.67A7.958,7.958,0,0,1,7.8,19.74a8.061,8.061,0,0,1-3.77-6.77.5.5,0,0,1,1,0,6.976,6.976,0,0,0,11,5.7,6.969,6.969,0,0,0-1-11.97,10.075,10.075,0,0,0-4.64-.69V7.46a.5.5,0,0,1-.81.39L7.109,5.9a.5.5,0,0,1,0-.79L9.6,3.17a.5.5,0,0,1,.8.4V5.01c.71-.01,1.43-.03,2.13.02a7.985,7.985,0,0,1,7.41,8.64Z"
+            />
+          </g>
+        </svg>
+      </button>
+      <button
+        className="ml-5"
+        data-description="redo"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height={32}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width={32}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Redo"
+          >
+            <path
+              d="M4.061,13.67A7.958,7.958,0,0,0,16.2,19.74a8.061,8.061,0,0,0,3.77-6.77.5.5,0,0,0-1,0,6.976,6.976,0,0,1-11,5.7,6.969,6.969,0,0,1,1-11.97,10.075,10.075,0,0,1,4.64-.69V7.46a.5.5,0,0,0,.81.39l2.47-1.95a.5.5,0,0,0,0-.79L14.4,3.17a.5.5,0,0,0-.8.4V5.01c-.71-.01-1.43-.03-2.13.02a7.985,7.985,0,0,0-7.41,8.64Z"
+            />
+          </g>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <h1
+    className="absolute inset-x-0 text-center"
+  >
+    Line Chart
+  </h1>
+  <div
+    className="flex items-center justify-end min-w-[30%] z-30"
+    data-description="export button"
+  >
+    <div
+      className="opacity-0 font-medium border-[1.5px] border-solid py-1 px-6 mr-6 text-base"
+    >
+      Export
+    </div>
+  </div>
+</header>
+`;
+
+exports[`ImageEditor test renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": 0,
+      "justifyContent": "center",
+      "overflow": "visible",
+      "position": "absolute",
+      "width": 0,
+    }
+  }
+>
+  <div
+    aria-busy={true}
+    aria-label="tail-spin-loading"
+    className=""
+    data-testid="tail-spin-loading"
+    role="status"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <svg
+      data-testid="tail-spin-svg"
+      height="80"
+      viewBox="0 0 38 38"
+      width="80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient
+          id="a"
+          x1="8.042%"
+          x2="65.682%"
+          y1="0%"
+          y2="23.865%"
+        >
+          <stop
+            offset="0%"
+            stopColor="#153243"
+            stopOpacity="0"
+          />
+          <stop
+            offset="63.146%"
+            stopColor="#153243"
+            stopOpacity=".631"
+          />
+          <stop
+            offset="100%"
+            stopColor="#153243"
+          />
+        </linearGradient>
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+      >
+        <g
+          transform="translate(1 1)"
+        >
+          <path
+            d="M36 18c0-9.94-8.06-18-18-18"
+            id="Oval-2"
+            stroke="#153243"
+            strokeWidth="2"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="0.9s"
+              from="0 18 18"
+              repeatCount="indefinite"
+              to="360 18 18"
+              type="rotate"
+            />
+          </path>
+          <circle
+            cx="36"
+            cy="18"
+            fill="#fff"
+            r="0.75"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="0.9s"
+              from="0 18 18"
+              repeatCount="indefinite"
+              to="360 18 18"
+              type="rotate"
+            />
+          </circle>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Interactive Tutorial test renders correctly 1`] = `
+<div
+  className="fixed inset-0 flex items-center justify-center z-50"
+>
+  <div
+    className="fixed inset-0 bg-charcoal opacity-[0.675]"
+  />
+  <div
+    className="bg-neutral relative w-1/3 flex flex-col items-center justify-between rounded-md z-50 shadow-xl"
+  >
+    <div
+      className="p-12"
+    >
+      <p>
+        Given an image of a line chart, someone with visual impairment is not able to interact with the content. The image is flat. Using this tool, we can extract the data from the image by manually (or automatically) copying its content and exporting it in formats useful for someone with visual impairment. As you work, the SVG you produce can be viewed from within the tool. This entire process is guided through an interactive tutorial.
+        <br />
+         Made by Omar Moured and Morris Baumgarten-Egemole
+        <br />
+      </p>
+    </div>
+    <button
+      className="absolute right-3 top-3 text-right text-charcoal"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height={26}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 15 15"
+        width={26}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+    <button
+      className="mb-4 bg-dogwater font-medium border-[1.5px] border-charcoal border-solid py-1 px-6 rounded text-charcoal text-base"
+      onClick={[Function]}
+    >
+      Start Tutorial
+    </button>
+  </div>
+</div>
+`;
+
+exports[`LineDataSdeBar test renders correctly 1`] = `
+<div
+  className="w-full overflow-x-hidden"
+>
+  <div>
+    <div
+      className="pr-8"
+      id="step15"
+    >
+      <div
+        className="mx-4 mb-4 relative w-full"
+      >
+        <label
+          className="text-sm font-normal text-charcoal"
+        >
+          Select Line
+        </label>
+        <div
+          className="flex items-center"
+        >
+          <button
+            className="border-[1.5px] py-2.5 pl-6 pr-14 flex items-start justify-between font-normal border-darkgrey bg-truegrey text-charcoal py-2 px-4 w-full rounded-md"
+            onClick={[Function]}
+            type="button"
+          >
+            <div
+              className="block truncate text-darkgrey"
+            >
+              Select a Line
+            </div>
+            <svg
+              className="text-darkgrey text-xl"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M112 184l144 144 144-144"
+                fill="none"
+                strokeLinecap="square"
+                strokeMiterlimit="10"
+                strokeWidth="48"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h2
+        className="text-sm my-[0.1rem]"
+      >
+        Line Details
+      </h2>
+      <hr
+        className="border-darkgrey mb-1.5"
+      />
+    </div>
+    <div
+      data-description="line title entry"
+    >
+      <div
+        className=" mx-5"
+      >
+        <div>
+          <label
+            className="text-xs font-normal text-charcoal"
+          >
+            Line Title
+          </label>
+        </div>
+        <input
+          className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="pb-4 pl-3"
+      data-description="Type entry"
+    >
+      <div
+        className="ml-2 relative w-full"
+      >
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          Line Output Type
+        </label>
+        <div
+          className="flex items-center"
+        >
+          <button
+            className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+            onClick={[Function]}
+            type="button"
+          >
+            <div
+              className="block truncate text-sm"
+            />
+            <svg
+              className="text-darkgrey text-lg"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M112 184l144 144 144-144"
+                fill="none"
+                strokeLinecap="square"
+                strokeMiterlimit="10"
+                strokeWidth="48"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      data-description="data point grid"
+      id="step7"
+    >
+      <div>
+        <h2
+          className="text-sm my-[0.1rem]"
+        >
+          Data Points for Line
+        </h2>
+        <hr
+          className="border-darkgrey mb-1.5"
+        />
+      </div>
+      <div
+        className="mx-4 mb-4"
+      >
+        <div
+          className="mr-10"
+        >
+          <div
+            className="w-full grid gap-1 text-center text-sm"
+            style={
+              Object {
+                "gridTemplateColumns": "10% 30% 30% 30%",
+              }
+            }
+          >
+            <span
+              className="bg-neutral py-1 rounded"
+            >
+              #
+            </span>
+            <span
+              className="bg-neutral py-1 rounded"
+            >
+              X-value
+            </span>
+            <span
+              className="bg-neutral py-1 rounded"
+            >
+              Y-value
+            </span>
+            <span
+              className="bg-neutral py-1 rounded"
+            >
+              Description
+            </span>
+          </div>
+        </div>
+        <div
+          className="flex w-full pl-1 pt-2 mr-10 items-center text-darkgrey text-xs"
+        >
+          Calibrate your axes by adding reference values in the properties tab first!
+        </div>
+      </div>
+    </div>
+    <div
+      className="h-8"
+    />
+  </div>
+</div>
+`;
+
+exports[`LinePropertiesSidebar test renders correctly 1`] = `
+<div
+  className="w-full h-full overflow-x-hidden"
+>
+  <div>
+    <h2
+      className="text-sm my-[0.1rem]"
+    >
+      Calibration - Values at Points
+    </h2>
+    <hr
+      className="border-darkgrey mb-1.5"
+    />
+  </div>
+  <div
+    className="w-full pl-5 grid grid-cols-3 gap-x-2 mb-1.5"
+    data-description="calibration entry fields"
+    id="step5"
+  >
+    <div
+      className=" "
+    >
+      <div>
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          X1
+        </label>
+      </div>
+      <input
+        className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className=" "
+    >
+      <div>
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          X2
+        </label>
+      </div>
+      <input
+        className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      data-description="X scale type chooser"
+    >
+      <div
+        className="ml-2 relative w-full"
+      >
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          Scale X
+        </label>
+        <div
+          className="flex items-center"
+        >
+          <button
+            className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+            onClick={[Function]}
+            type="button"
+          >
+            <div
+              className="block truncate text-sm"
+            >
+              linear
+            </div>
+            <svg
+              className="text-darkgrey text-lg"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M112 184l144 144 144-144"
+                fill="none"
+                strokeLinecap="square"
+                strokeMiterlimit="10"
+                strokeWidth="48"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className=" "
+    >
+      <div>
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          Y1
+        </label>
+      </div>
+      <input
+        className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className=" "
+    >
+      <div>
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          Y2
+        </label>
+      </div>
+      <input
+        className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      data-description="Y scale type chooser"
+    >
+      <div
+        className="ml-2 relative w-full"
+      >
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          Scale Y
+        </label>
+        <div
+          className="flex items-center"
+        >
+          <button
+            className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+            onClick={[Function]}
+            type="button"
+          >
+            <div
+              className="block truncate text-sm"
+            >
+              linear
+            </div>
+            <svg
+              className="text-darkgrey text-lg"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M112 184l144 144 144-144"
+                fill="none"
+                strokeLinecap="square"
+                strokeMiterlimit="10"
+                strokeWidth="48"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2
+      className="text-sm my-[0.1rem]"
+    >
+      Graph Information
+    </h2>
+    <hr
+      className="border-darkgrey mb-1.5"
+    />
+  </div>
+  <div
+    className=" mx-5"
+  >
+    <div>
+      <label
+        className="text-xs font-normal text-charcoal"
+      >
+        Title
+      </label>
+    </div>
+    <input
+      className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className=" mx-5"
+  >
+    <div>
+      <label
+        className="text-xs font-normal text-charcoal"
+      >
+        X-Axis Title
+      </label>
+    </div>
+    <input
+      className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="mb-[-10px]"
+  >
+    <div
+      data-description="advancedXEntry"
+    >
+      <button
+        className="w-full relative flex justify-center"
+        onClick={[Function]}
+      >
+        <div
+          className="text-darkgrey text-xs flex items-center flex-col"
+        >
+          Advanced
+          <svg
+            className="mt-[-4px]"
+            fill="currentColor"
+            height={17}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={17}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M112 184l144 144 144-144"
+              fill="none"
+              strokeLinecap="square"
+              strokeMiterlimit="10"
+              strokeWidth="48"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className=" mx-5"
+  >
+    <div>
+      <label
+        className="text-xs font-normal text-charcoal"
+      >
+        Y-Axis Title
+      </label>
+    </div>
+    <input
+      className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="mb-[-10px]"
+  >
+    <div
+      className="w-full mt-1"
+      data-description="advancedYEntry"
+      id="step21"
+    >
+      <button
+        className="w-full relative flex justify-center"
+        onClick={[Function]}
+      >
+        <div
+          className="text-darkgrey text-xs flex items-center flex-col"
+        >
+          Advanced
+          <svg
+            className="mt-[-4px]"
+            fill="currentColor"
+            height={17}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={17}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M112 184l144 144 144-144"
+              fill="none"
+              strokeLinecap="square"
+              strokeMiterlimit="10"
+              strokeWidth="48"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="mt-3"
+  />
+  <div>
+    <h2
+      className="text-sm my-[0.1rem]"
+    >
+      Additional Information
+    </h2>
+    <hr
+      className="border-darkgrey mb-1.5"
+    />
+  </div>
+  <div
+    id="step80"
+  >
+    <div
+      className=" mx-5"
+    >
+      <div>
+        <label
+          className="text-xs font-normal text-charcoal"
+        >
+          Description
+        </label>
+      </div>
+      <textarea
+        className="relative z-0 border-darkgrey  text-darkgrey pb-12 
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="flex flex-row"
+  >
+    <button
+      className="bg-neutral ml-5 font-light border-[1.5px] border-charcoal border-solid py-0.5 px-4 rounded text-charcoal text-sm"
+      onClick={[Function]}
+    >
+      Auto-fill English
+    </button>
+    <button
+      className="bg-neutral ml-1 mr-5 font-light border-[1.5px] border-charcoal border-solid py-0.5 px-4 rounded text-charcoal text-sm"
+      onClick={[Function]}
+    >
+      Auto-fill German
+    </button>
+  </div>
+  <div
+    className="h-8"
+  />
+</div>
+`;
+
+exports[`Loading with text renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": 0,
+      "justifyContent": "center",
+      "overflow": "visible",
+      "position": "absolute",
+      "width": 0,
+    }
+  }
+>
+  <div
+    aria-busy={true}
+    aria-label="tail-spin-loading"
+    className=""
+    data-testid="tail-spin-loading"
+    role="status"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <svg
+      data-testid="tail-spin-svg"
+      height="80"
+      viewBox="0 0 38 38"
+      width="80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient
+          id="a"
+          x1="8.042%"
+          x2="65.682%"
+          y1="0%"
+          y2="23.865%"
+        >
+          <stop
+            offset="0%"
+            stopColor="#153243"
+            stopOpacity="0"
+          />
+          <stop
+            offset="63.146%"
+            stopColor="#153243"
+            stopOpacity=".631"
+          />
+          <stop
+            offset="100%"
+            stopColor="#153243"
+          />
+        </linearGradient>
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+      >
+        <g
+          transform="translate(1 1)"
+        >
+          <path
+            d="M36 18c0-9.94-8.06-18-18-18"
+            id="Oval-2"
+            stroke="#153243"
+            strokeWidth="2"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="0.9s"
+              from="0 18 18"
+              repeatCount="indefinite"
+              to="360 18 18"
+              type="rotate"
+            />
+          </path>
+          <circle
+            cx="36"
+            cy="18"
+            fill="#fff"
+            r="0.75"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="0.9s"
+              from="0 18 18"
+              repeatCount="indefinite"
+              to="360 18 18"
+              type="rotate"
+            />
+          </circle>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Main Button Test renders correctly 1`] = `
+<div
+  className="flex w-full bg-lightgrey px-1 py-[0.2rem] rounded-md"
+  data-description="Properties Toggle visible: true"
+>
+  <button
+    className="flex-grow mr-1 py-1 border-[1.5px]  border-charcoal text-charcoal  bg-green rounded-md"
+    onClick={[Function]}
+  >
+    Data
+  </button>
+  <button
+    className="flex-grow py-1 bg-lightgrey text-darkgrey rounded-md"
+    onClick={[Function]}
+  >
+    Properties
+  </button>
+</div>
+`;
+
+exports[`Mode Button Test renders correctly 1`] = `
+<div
+  className="flex justify-center items-center m-1"
+>
+  <button
+    className="border-4 border-darkCharcoal bg-dogwater w-11 h-11 flex items-center justify-center rounded-md"
+    onClick={[Function]}
+  >
+    <div
+      className="text-darkCharcoal"
+    >
+      <svg
+        fill="none"
+        height={28}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width={28}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`OCR features test renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": 0,
+      "justifyContent": "center",
+      "overflow": "visible",
+      "position": "absolute",
+      "width": 0,
+    }
+  }
+>
+  <div
+    aria-busy={true}
+    aria-label="tail-spin-loading"
+    className=""
+    data-testid="tail-spin-loading"
+    role="status"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <svg
+      data-testid="tail-spin-svg"
+      height="80"
+      viewBox="0 0 38 38"
+      width="80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient
+          id="a"
+          x1="8.042%"
+          x2="65.682%"
+          y1="0%"
+          y2="23.865%"
+        >
+          <stop
+            offset="0%"
+            stopColor="#153243"
+            stopOpacity="0"
+          />
+          <stop
+            offset="63.146%"
+            stopColor="#153243"
+            stopOpacity=".631"
+          />
+          <stop
+            offset="100%"
+            stopColor="#153243"
+          />
+        </linearGradient>
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+      >
+        <g
+          transform="translate(1 1)"
+        >
+          <path
+            d="M36 18c0-9.94-8.06-18-18-18"
+            id="Oval-2"
+            stroke="#153243"
+            strokeWidth="2"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="0.9s"
+              from="0 18 18"
+              repeatCount="indefinite"
+              to="360 18 18"
+              type="rotate"
+            />
+          </path>
+          <circle
+            cx="36"
+            cy="18"
+            fill="#fff"
+            r="0.75"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="0.9s"
+              from="0 18 18"
+              repeatCount="indefinite"
+              to="360 18 18"
+              type="rotate"
+            />
+          </circle>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Option toggle Button Test renders correctly 1`] = `
+<div
+  className="flex bg-lightgrey px-1 py-[0.2rem] rounded-md my-4 text-md font-normal"
+  data-description="Clicked away from image mode"
+  style={
+    Object {
+      "width": 136,
+    }
+  }
+>
+  <button
+    className="flex-grow mr-1 py-1 border-[1.5px]  border-charcoal text-charcoal  bg-dogwater rounded-md"
+    onClick={[Function]}
+  >
+    image
+  </button>
+  <button
+    className="flex-grow mr-1 py-1 bg-lightgrey text-darkgrey rounded-md"
+    onClick={[Function]}
+  >
+    src
+  </button>
+</div>
+`;
+
+exports[`SideBar test renders correctly 1`] = `
+<div
+  className="flex flex-col flex-shrink-0 w-96 px-3 pt-2 h-full"
+>
+  <h2
+    className="font-medium pb-2 text-base"
+  >
+    Chart Manipulation
+  </h2>
+  <div
+    className="flex w-full bg-lightgrey px-1 py-[0.2rem] rounded-md"
+    data-description="Properties Toggle visible: false"
+  >
+    <button
+      className="flex-grow mr-1 py-1 bg-lightgrey text-darkgrey rounded-md"
+      onClick={[Function]}
+    >
+      Data
+    </button>
+    <button
+      className="flex-grow py-1 border-[1.5px] border-charcoal text-charcoal  bg-green rounded-md"
+      onClick={[Function]}
+    >
+      Properties
+    </button>
+  </div>
+  <div
+    className="pb-2"
+  />
+  <div
+    className="w-[22.75rem] overflow-y-scroll"
+  >
+    <div
+      className="hidden"
+      data-description="data side bar"
+    >
+      <div
+        className="w-full overflow-x-hidden"
+      >
+        <div>
+          <div
+            className="pr-8"
+            id="step15"
+          >
+            <div
+              className="mx-4 mb-4 relative w-full"
+            >
+              <label
+                className="text-sm font-normal text-charcoal"
+              >
+                Select Line
+              </label>
+              <div
+                className="flex items-center"
+              >
+                <button
+                  className="border-[1.5px] py-2.5 pl-6 pr-14 flex items-start justify-between font-normal border-darkgrey bg-truegrey text-charcoal py-2 px-4 w-full rounded-md"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="block truncate text-darkgrey"
+                  >
+                    Select a Line
+                  </div>
+                  <svg
+                    className="text-darkgrey text-xl"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      strokeLinecap="square"
+                      strokeMiterlimit="10"
+                      strokeWidth="48"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2
+              className="text-sm my-[0.1rem]"
+            >
+              Line Details
+            </h2>
+            <hr
+              className="border-darkgrey mb-1.5"
+            />
+          </div>
+          <div
+            data-description="line title entry"
+          >
+            <div
+              className=" mx-5"
+            >
+              <div>
+                <label
+                  className="text-xs font-normal text-charcoal"
+                >
+                  Line Title
+                </label>
+              </div>
+              <input
+                className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className="pb-4 pl-3"
+            data-description="Type entry"
+          >
+            <div
+              className="ml-2 relative w-full"
+            >
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                Line Output Type
+              </label>
+              <div
+                className="flex items-center"
+              >
+                <button
+                  className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="block truncate text-sm"
+                  />
+                  <svg
+                    className="text-darkgrey text-lg"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      strokeLinecap="square"
+                      strokeMiterlimit="10"
+                      strokeWidth="48"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            data-description="data point grid"
+            id="step7"
+          >
+            <div>
+              <h2
+                className="text-sm my-[0.1rem]"
+              >
+                Data Points for Line
+              </h2>
+              <hr
+                className="border-darkgrey mb-1.5"
+              />
+            </div>
+            <div
+              className="mx-4 mb-4"
+            >
+              <div
+                className="mr-10"
+              >
+                <div
+                  className="w-full grid gap-1 text-center text-sm"
+                  style={
+                    Object {
+                      "gridTemplateColumns": "10% 30% 30% 30%",
+                    }
+                  }
+                >
+                  <span
+                    className="bg-neutral py-1 rounded"
+                  >
+                    #
+                  </span>
+                  <span
+                    className="bg-neutral py-1 rounded"
+                  >
+                    X-value
+                  </span>
+                  <span
+                    className="bg-neutral py-1 rounded"
+                  >
+                    Y-value
+                  </span>
+                  <span
+                    className="bg-neutral py-1 rounded"
+                  >
+                    Description
+                  </span>
+                </div>
+              </div>
+              <div
+                className="flex w-full pl-1 pt-2 mr-10 items-center text-darkgrey text-xs"
+              >
+                Calibrate your axes by adding reference values in the properties tab first!
+              </div>
+            </div>
+          </div>
+          <div
+            className="h-8"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className=""
+      data-description="properties side bar"
+    >
+      <div
+        className="w-full h-full overflow-x-hidden"
+      >
+        <div>
+          <h2
+            className="text-sm my-[0.1rem]"
+          >
+            Calibration - Values at Points
+          </h2>
+          <hr
+            className="border-darkgrey mb-1.5"
+          />
+        </div>
+        <div
+          className="w-full pl-5 grid grid-cols-3 gap-x-2 mb-1.5"
+          data-description="calibration entry fields"
+          id="step5"
+        >
+          <div
+            className=" "
+          >
+            <div>
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                X1
+              </label>
+            </div>
+            <input
+              className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className=" "
+          >
+            <div>
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                X2
+              </label>
+            </div>
+            <input
+              className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            data-description="X scale type chooser"
+          >
+            <div
+              className="ml-2 relative w-full"
+            >
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                Scale X
+              </label>
+              <div
+                className="flex items-center"
+              >
+                <button
+                  className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="block truncate text-sm"
+                  >
+                    linear
+                  </div>
+                  <svg
+                    className="text-darkgrey text-lg"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      strokeLinecap="square"
+                      strokeMiterlimit="10"
+                      strokeWidth="48"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className=" "
+          >
+            <div>
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                Y1
+              </label>
+            </div>
+            <input
+              className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className=" "
+          >
+            <div>
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                Y2
+              </label>
+            </div>
+            <input
+              className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            data-description="Y scale type chooser"
+          >
+            <div
+              className="ml-2 relative w-full"
+            >
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                Scale Y
+              </label>
+              <div
+                className="flex items-center"
+              >
+                <button
+                  className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="block truncate text-sm"
+                  >
+                    linear
+                  </div>
+                  <svg
+                    className="text-darkgrey text-lg"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      strokeLinecap="square"
+                      strokeMiterlimit="10"
+                      strokeWidth="48"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2
+            className="text-sm my-[0.1rem]"
+          >
+            Graph Information
+          </h2>
+          <hr
+            className="border-darkgrey mb-1.5"
+          />
+        </div>
+        <div
+          className=" mx-5"
+        >
+          <div>
+            <label
+              className="text-xs font-normal text-charcoal"
+            >
+              Title
+            </label>
+          </div>
+          <input
+            className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className=" mx-5"
+        >
+          <div>
+            <label
+              className="text-xs font-normal text-charcoal"
+            >
+              X-Axis Title
+            </label>
+          </div>
+          <input
+            className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-[-10px]"
+        >
+          <div
+            data-description="advancedXEntry"
+          >
+            <button
+              className="w-full relative flex justify-center"
+              onClick={[Function]}
+            >
+              <div
+                className="text-darkgrey text-xs flex items-center flex-col"
+              >
+                Advanced
+                <svg
+                  className="mt-[-4px]"
+                  fill="currentColor"
+                  height={17}
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 512 512"
+                  width={17}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M112 184l144 144 144-144"
+                    fill="none"
+                    strokeLinecap="square"
+                    strokeMiterlimit="10"
+                    strokeWidth="48"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          className=" mx-5"
+        >
+          <div>
+            <label
+              className="text-xs font-normal text-charcoal"
+            >
+              Y-Axis Title
+            </label>
+          </div>
+          <input
+            className="relative z-0 border-darkgrey  text-darkgrey  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-[-10px]"
+        >
+          <div
+            className="w-full mt-1"
+            data-description="advancedYEntry"
+            id="step21"
+          >
+            <button
+              className="w-full relative flex justify-center"
+              onClick={[Function]}
+            >
+              <div
+                className="text-darkgrey text-xs flex items-center flex-col"
+              >
+                Advanced
+                <svg
+                  className="mt-[-4px]"
+                  fill="currentColor"
+                  height={17}
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 512 512"
+                  width={17}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M112 184l144 144 144-144"
+                    fill="none"
+                    strokeLinecap="square"
+                    strokeMiterlimit="10"
+                    strokeWidth="48"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          className="mt-3"
+        />
+        <div>
+          <h2
+            className="text-sm my-[0.1rem]"
+          >
+            Additional Information
+          </h2>
+          <hr
+            className="border-darkgrey mb-1.5"
+          />
+        </div>
+        <div
+          id="step80"
+        >
+          <div
+            className=" mx-5"
+          >
+            <div>
+              <label
+                className="text-xs font-normal text-charcoal"
+              >
+                Description
+              </label>
+            </div>
+            <textarea
+              className="relative z-0 border-darkgrey  text-darkgrey pb-12 
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="flex flex-row"
+        >
+          <button
+            className="bg-neutral ml-5 font-light border-[1.5px] border-charcoal border-solid py-0.5 px-4 rounded text-charcoal text-sm"
+            onClick={[Function]}
+          >
+            Auto-fill English
+          </button>
+          <button
+            className="bg-neutral ml-1 mr-5 font-light border-[1.5px] border-charcoal border-solid py-0.5 px-4 rounded text-charcoal text-sm"
+            onClick={[Function]}
+          >
+            Auto-fill German
+          </button>
+        </div>
+        <div
+          className="h-8"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Small drop down menu test renders correctly 1`] = `
+<div
+  className="ml-2 relative w-full"
+>
+  <div
+    className="flex items-center"
+  >
+    <button
+      className="border-[1.5px] py-1 pl-2 pr-1 flex items-center justify-between font-normal border-darkgrey bg-truegrey text-charcoal rounded-md"
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="block truncate text-sm"
+      >
+        text
+      </div>
+      <svg
+        className="text-darkgrey text-lg"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M112 184l144 144 144-144"
+          fill="none"
+          strokeLinecap="square"
+          strokeMiterlimit="10"
+          strokeWidth="48"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`TelescopeField test renders correctly 1`] = `
+<div
+  className="flex flex-row items-center justify-between"
+>
+  <div
+    className="pr-2"
+  >
+    <div
+      className=" "
+    >
+      <input
+        className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value="0"
+      />
+    </div>
+  </div>
+  <div
+    className=" "
+  >
+    <input
+      className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`Toolbar test renders correctly 1`] = `
+<div
+  className="z-20 w-16 flex flex-col bg-sidegrey rounded-[1.25rem] justify-center bg-opacity-50 shadow-lg items-center bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))] from-grey via-neutral to-darkgrey"
+>
+  <div
+    className="h-4"
+  />
+  <div
+    data-description="Circle Tool"
+  >
+    <div
+      className="flex justify-center items-center m-1"
+    >
+      <button
+        className="border-4 border-darkCharcoal bg-transparent w-11 h-11 flex items-center justify-center rounded-md"
+        onClick={[Function]}
+      >
+        <div
+          className="text-darkCharcoal"
+        >
+          <svg
+            fill="none"
+            height={28}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={28}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z"
+              fill="currentColor"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    data-description="OCR Tool"
+    id="step19"
+  >
+    <div
+      className="flex justify-center items-center m-1"
+    >
+      <button
+        className="border-4 border-darkCharcoal bg-transparent w-11 h-11 flex items-center justify-center rounded-md"
+        onClick={[Function]}
+      >
+        <div
+          className="text-darkCharcoal"
+        >
+          <svg
+            fill="currentColor"
+            height={28}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={28}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M5 15v4h4v2H3v-6h2zm16 0v6h-6v-2h4v-4h2zm-8.001-9l4.4 11h-2.155l-1.201-3h-4.09l-1.199 3H6.6l4.399-11h2zm-1 2.885L10.752 12h2.492l-1.245-3.115zM9 3v2H5v4H3V3h6zm12 0v6h-2V5h-4V3h6z"
+              />
+            </g>
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    data-description="AI Tool"
+    id="step17"
+  >
+    <div
+      className="flex justify-center items-center m-1"
+    >
+      <button
+        className="border-4 border-darkCharcoal bg-transparent w-11 h-11 flex items-center justify-center rounded-md"
+        onClick={[Function]}
+      >
+        <div
+          className="text-darkCharcoal"
+        >
+          <svg
+            fill="currentColor"
+            height={24}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 3l-2-2h-1v1l2 2zM5 0h1v2h-1zM9 5h2v1h-2zM10 2v-1h-1l-2 2 1 1zM0 5h2v1h-2zM5 9h1v2h-1zM1 9v1h1l2-2-1-1zM15.781 13.781l-9.939-9.939c-0.292-0.292-0.769-0.292-1.061 0l-0.939 0.939c-0.292 0.292-0.292 0.769 0 1.061l9.939 9.939c0.292 0.292 0.769 0.292 1.061 0l0.939-0.939c0.292-0.292 0.292-0.769 0-1.061zM7.5 8.5l-3-3 1-1 3 3-1 1z"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="h-8"
+  />
+</div>
+`;
+
+exports[`UndoRedo test renders correctly 1`] = `
+<div
+  className="flex justify-center"
+>
+  <button
+    className="cursor-pointer ml-5"
+    data-description="undo"
+    onClick={[Function]}
+  >
+    <svg
+      fill="currentColor"
+      height={32}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width={32}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        id="Undo"
+      >
+        <path
+          d="M19.939,13.67A7.958,7.958,0,0,1,7.8,19.74a8.061,8.061,0,0,1-3.77-6.77.5.5,0,0,1,1,0,6.976,6.976,0,0,0,11,5.7,6.969,6.969,0,0,0-1-11.97,10.075,10.075,0,0,0-4.64-.69V7.46a.5.5,0,0,1-.81.39L7.109,5.9a.5.5,0,0,1,0-.79L9.6,3.17a.5.5,0,0,1,.8.4V5.01c.71-.01,1.43-.03,2.13.02a7.985,7.985,0,0,1,7.41,8.64Z"
+        />
+      </g>
+    </svg>
+  </button>
+  <button
+    className="ml-5"
+    data-description="redo"
+    onClick={[Function]}
+  >
+    <svg
+      fill="currentColor"
+      height={32}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width={32}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        id="Redo"
+      >
+        <path
+          d="M4.061,13.67A7.958,7.958,0,0,0,16.2,19.74a8.061,8.061,0,0,0,3.77-6.77.5.5,0,0,0-1,0,6.976,6.976,0,0,1-11,5.7,6.969,6.969,0,0,1,1-11.97,10.075,10.075,0,0,1,4.64-.69V7.46a.5.5,0,0,0,.81.39l2.47-1.95a.5.5,0,0,0,0-.79L14.4,3.17a.5.5,0,0,0-.8.4V5.01c-.71-.01-1.43-.03-2.13.02a7.985,7.985,0,0,0-7.41,8.64Z"
+        />
+      </g>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`ZoomLens test renders correctly 1`] = `
+<div
+  className="m-4 absolute top-0 right-0 w-[11rem] h-[11rem] overflow-hidden border-2 border-charcoal rounded-lg"
+>
+  <div
+    className="absolute inset-0 flex items-center justify-center z-10"
+  >
+    <div
+      className="absolute border-[1px] h-full bg-charcoal"
+    />
+    <div
+      className="absolute border-[1px] w-full bg-charcoal"
+    />
+  </div>
+  <div
+    className="absolute inset-0"
+    style={
+      Object {
+        "transform": "translate(NaN%, NaN%) scale(12)",
+      }
+    }
+  >
+    <svg
+      className="absolute inset-0 z-40"
+      viewBox="0 0 0 0"
+    />
+    <img
+      alt="Zoom"
+      className="absolute inset-0"
+      src=""
+    />
+  </div>
+  <p
+    className="z-10 absolute bottom-0 left-0 m-2 text-sm font-medium text-charcoal"
+  >
+    X: 
+    0.000
+     
+    
+
+    Y: 
+    0.000
+  </p>
+</div>
+`;
+
+exports[`accessibility tutorial test renders correctly 1`] = `
+<div
+  className="fixed inset-0 flex items-center justify-center z-50"
+>
+  <div
+    className="fixed inset-0 bg-charcoal opacity-[0.675]"
+  />
+  <div
+    className="bg-neutral relative w-1/3 flex flex-col items-center justify-between rounded-md z-50"
+  >
+    <div
+      className="p-12"
+    >
+      <p>
+        Making an SVG accessible requires multiple steps. This demonstration is not a tutorial for the application, instead it briefly teaches some guidelines for accessible chart creation.
+      </p>
+    </div>
+    <button
+      className="absolute right-3 top-3 text-right text-charcoal"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height={26}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 15 15"
+        width={26}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </svg>
+    </button>
+    <button
+      className="mb-4 bg-green font-medium border-[1.5px] border-charcoal border-solid py-1 px-6 rounded text-charcoal text-base"
+      onClick={[Function]}
+    >
+      Start Explanation
+    </button>
+  </div>
+</div>
+`;
+
+exports[`datapoint grid test renders correctly 1`] = `
+<div
+  className="mx-4 mb-4"
+>
+  <div
+    className="mr-10"
+  >
+    <div
+      className="w-full grid gap-1 text-center text-sm"
+      style={
+        Object {
+          "gridTemplateColumns": "10% 30% 30% 30%",
+        }
+      }
+    >
+      <span
+        className="bg-neutral py-1 rounded"
+      >
+        #
+      </span>
+      <span
+        className="bg-neutral py-1 rounded"
+      >
+        X-value
+      </span>
+      <span
+        className="bg-neutral py-1 rounded"
+      >
+        Y-value
+      </span>
+      <span
+        className="bg-neutral py-1 rounded"
+      >
+        Description
+      </span>
+    </div>
+  </div>
+  <div
+    className="flex w-full pl-1 pt-2 mr-10 items-center text-darkgrey text-xs"
+  >
+    Calibrate your axes by adding reference values in the properties tab first!
+  </div>
+</div>
+`;
+
+exports[`divider with text renders correctly 1`] = `
+<div>
+  <h2
+    className="text-sm my-[0.1rem]"
+  >
+    Lena
+  </h2>
+  <hr
+    className="border-darkgrey mb-1.5"
+  />
+</div>
+`;
+
+exports[`telescope labels render renders correctly 1`] = `
+<div
+  className="flex flex-col px-4"
+>
+  <div
+    className="w-full grid mx-1 mt-1"
+    style={
+      Object {
+        "gridTemplateColumns": "40% 40% 20%",
+      }
+    }
+  >
+    <p
+      className="text-xs"
+    >
+      Text
+    </p>
+    <p
+      className="text-xs pl-2"
+    >
+      X
+      -coordinate
+    </p>
+  </div>
+  <div
+    className="w-full grid mx-1 mt-1"
+    style={
+      Object {
+        "gridTemplateColumns": "80% 20%",
+      }
+    }
+  >
+    <div
+      className="flex flex-row items-center justify-between"
+    >
+      <div
+        className="pr-2"
+      >
+        <div
+          className=" "
+        >
+          <input
+            className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        className=" "
+      >
+        <input
+          className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="0"
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-row items-center pl-2"
+    >
+      <button
+        className="bg-blue w-3 h-3 flex items-center justify-center rounded-2xl opacity-80 m-1"
+        onClick={[Function]}
+      >
+        <div
+          className="text-white"
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={13}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 112v288m144-144H112"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+      </button>
+      <button
+        className="bg-blue w-3 h-3 flex items-center justify-center rounded-2xl opacity-80 m-1"
+        onClick={[Function]}
+      >
+        <div
+          className="text-white"
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={13}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M400 256H112"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full grid mx-1 mt-1"
+    style={
+      Object {
+        "gridTemplateColumns": "80% 20%",
+      }
+    }
+  >
+    <div
+      className="flex flex-row items-center justify-between"
+    >
+      <div
+        className="pr-2"
+      >
+        <div
+          className=" "
+        >
+          <input
+            className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        className=" "
+      >
+        <input
+          className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="0"
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-row items-center pl-2"
+    >
+      <button
+        className="bg-blue w-3 h-3 flex items-center justify-center rounded-2xl opacity-80 m-1"
+        onClick={[Function]}
+      >
+        <div
+          className="text-white"
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={13}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 112v288m144-144H112"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+      </button>
+      <button
+        className="bg-blue w-3 h-3 flex items-center justify-center rounded-2xl opacity-80 m-1"
+        onClick={[Function]}
+      >
+        <div
+          className="text-white"
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={13}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M400 256H112"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full grid mx-1 mt-1"
+    style={
+      Object {
+        "gridTemplateColumns": "80% 20%",
+      }
+    }
+  >
+    <div
+      className="flex flex-row items-center justify-between"
+    >
+      <div
+        className="pr-2"
+      >
+        <div
+          className=" "
+        >
+          <input
+            className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+      </div>
+      <div
+        className=" "
+      >
+        <input
+          className="relative z-0 border-darkgrey  text-charcoal  
+                py-1.5 px-4 w-full rounded-md border-[1.5px] font-normal text-sm bg-truegrey font-normal"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value="0"
+        />
+      </div>
+    </div>
+    <div
+      className="flex flex-row items-center pl-2"
+    >
+      <button
+        className="bg-blue w-3 h-3 flex items-center justify-center rounded-2xl opacity-80 m-1"
+        onClick={[Function]}
+      >
+        <div
+          className="text-white"
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={13}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 112v288m144-144H112"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+      </button>
+      <button
+        className="bg-blue w-3 h-3 flex items-center justify-center rounded-2xl opacity-80 m-1"
+        onClick={[Function]}
+      >
+        <div
+          className="text-white"
+        >
+          <svg
+            fill="currentColor"
+            height={13}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={13}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M400 256H112"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

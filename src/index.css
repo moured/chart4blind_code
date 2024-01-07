@@ -1,0 +1,15 @@
+/* Import of Google Inter font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.dot-background {
+    background-image: radial-gradient(rgba(224, 175, 160, 0.3) 3px, transparent 1px);
+    background-size: 43px 43px;
+    background-position: 0 0, 10px 10px;
+}
+text {
+    font-family: 'Inter', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
